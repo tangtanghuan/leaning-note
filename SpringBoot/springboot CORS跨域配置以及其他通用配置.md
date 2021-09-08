@@ -1,4 +1,4 @@
-﻿## 1. CORS跨域配置
+﻿﻿﻿## 1. CORS跨域配置
 
 ```java
 @Configuration
@@ -493,19 +493,19 @@ public @interface Query {
     String blurry() default "";
 
     enum Type {
-        //相等
+        // 相等
         EQUAL
-        // 2017/8/7 大于等于
+        // 大于等于
         , GREATER_THAN
-        // 2017/8/7 小于等于
+        // 小于等于
         , LESS_THAN
-        // 2017/8/7 中模糊查询
+        // 中模糊查询
         , INNER_LIKE
-        // 2017/8/7 左模糊查询
+        // 左模糊查询
         , LEFT_LIKE
-        //  2017/8/7 右模糊查询
+        //  右模糊查询
         , RIGHT_LIKE
-        //  2017/8/7 小于
+        //  小于
         , LESS_THAN_NQ
         //  包含
         , IN
