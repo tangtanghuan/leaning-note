@@ -1,6 +1,7 @@
 # swagger2使用说明
 
-​         @Api：用在类上，说明该类的作用
+```
+@Api：用在类上，说明该类的作用
 ​         @ApiOperation：用在方法上，说明方法的作用
 ​         @ApiIgnore：使用该注解忽略这个API
 ​         @ApiImplicitParams：用在方法上包含一组参数说明
@@ -23,6 +24,7 @@
 ​             response：抛出异常的类
 ​         @ApiModel：描述一个Model的信息（这种一般用在post创建的时候，使用@RequestBody这样的场景，请求参数无法使用@ApiImplicitParam注解进行描述的时候）
 ​         @ApiModelProperty：描述一个model的属性
+```
 
 http://127.0.0.1:666/doc.html
 

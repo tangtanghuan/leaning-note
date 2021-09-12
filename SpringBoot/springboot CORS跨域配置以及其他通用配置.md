@@ -1,4 +1,4 @@
-﻿﻿﻿## 1. CORS跨域配置
+﻿﻿﻿﻿## 1. CORS跨域配置
 
 ```java
 @Configuration
@@ -10,7 +10,7 @@ public class CORSConfig {
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
 		corsConfiguration.setMaxAge(1728000L);
 		corsConfiguration.setAllowCredentials(true);
-		corsConfiguration.addAllowedOrigin("*");
+		corsConfiguration.addAllowedOriginPattern("*");
 		corsConfiguration.addAllowedHeader("*");
 		corsConfiguration.addAllowedMethod("*");
 		source.registerCorsConfiguration("/**", corsConfiguration);
