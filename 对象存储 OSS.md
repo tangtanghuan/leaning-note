@@ -126,8 +126,8 @@ OSS的基本操作流程如下：
 ```yaml
 alioss:
   endpoint: oss-cn-hangzhou.aliyuncs.com
-  accessKeyId: LTAI4G8PUgUKQLi5jNwu4rJe
-  accessKeySecret: NXgV8j2clb8nxeAbnubE11YY2FrRvO
+  accessKeyId: 
+  accessKeySecret: 
   bucketName: xinguan-parent
 ```
 
